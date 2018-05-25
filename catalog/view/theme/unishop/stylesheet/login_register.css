@@ -1,0 +1,24 @@
+#popup_login .close{position:absolute;z-index:999;top:8px;right:10px;}
+#popup_login h4 span {background:#f8f8f8;}
+#popup_login form {margin:0 0 10px}
+#popup_login form div + div {margin:10px 0 0;}
+#popup_login .row div {margin:10px 0 0;}
+#popup_login .row div + div {padding:0 5px;}
+#popup_login .btn {margin:4px 0 -2px;}
+#popup_login a {font-size:0.9em;font-weight:500;border-bottom:dotted 1px;}
+
+#popup_register .close{position:absolute;z-index:999;top:8px;right:10px;}
+#popup_register h4 span {background:#f8f8f8;}
+#popup_register form, #popup_register form + div {margin:0 0 10px}
+#popup_register form div + div {margin:10px 0 0;}
+#popup_register .customer_group {margin:10px 0 -5px;}
+#popup_register a {font-weight:500;border-bottom:dotted 1px;}
+#popup_register label {cursor:pointer;}
+#popup_register input[type='radio']{display:none;}
+#popup_register input[type='radio'] + label{display:inline-block;vertical-align:middle;margin:-2px 6px 0 0;background:#e5e5e5;width:14px;height:14px;border:solid 1px #ccc;border-radius:100%;text-shadow:0 1px 0 rgba(255, 255, 255, 1);box-shadow:inset 0 1px 0 rgba(255, 255, 255, .5);}
+#popup_register input[type='radio'] + label:hover{background:#d5d5d5;border:solid 1px #ccc;}
+#popup_register input[type='radio']:checked + label{color:#D9534F;color:#fff;background:#d5d5d5;background:#D9534F;border:solid 1px #aaa;border:solid 1px #D9534F;text-shadow:0 1px 0 rgba(0, 0, 0, .7);box-shadow:inset 0 1px 3px rgba(0, 0, 0, .3);}
+#popup_register input[type='checkbox']{display:none;}
+#popup_register input[type='checkbox'] + label{display:inline-block;vertical-align:middle;margin:-2px 6px 0 0;padding:0;min-height:auto;background:#e5e5e5;width:14px;height:14px;border:solid 1px #ccc;border-radius:2px;text-shadow:0 1px 0 rgba(255, 255, 255, 1);box-shadow:inset 0 1px 0 rgba(255, 255, 255, .5);}
+#popup_register input[type='checkbox'] + label:hover{background:#d5d5d5;border:solid 1px #ccc;}
+#popup_register input[type='checkbox']:checked + label{color:#D9534F;color:#fff;background:#d5d5d5;background:#D9534F;border:solid 1px #aaa;border:solid 1px #D9534F;text-shadow:0 1px 0 rgba(0, 0, 0, .7);box-shadow:inset 0 1px 3px rgba(0, 0, 0, .3);}

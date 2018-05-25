@@ -1,0 +1,22 @@
+.wr360wrap
+{
+    margin: 0 0 30px 0;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    padding: 5px !important;
+}
+
+.dropdown-menu
+{
+    z-index: 56000 !important;
+}
+
+.mfp-bg
+{
+    z-index: 56000 !important;
+}
+
+.mfp-wrap
+{
+    z-index: 56001 !important;
+}

@@ -1,0 +1,27 @@
+/* Главная */
+.mainCat-item-subcat {
+    min-height: 80px;
+}
+
+.mainCat-item-pic {
+    margin: auto;
+    display: table;
+}
+
+.mainCat-item-subcat {
+    min-height: 80px;
+    text-align: center;
+}
+
+.mainCat-item {
+    /*background: #ddd;*/
+}
+
+.mainCat-item-subcat a {
+    text-transform: uppercase;
+    color: #3b89c9;
+}
+
+.mainCat-item-subcat a:hover {
+    color: #23527c;
+}

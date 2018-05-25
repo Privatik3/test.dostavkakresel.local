@@ -1,0 +1,12 @@
+span.fancytree-node.custom1 > span.fancytree-title {
+	color: maroon;
+	  /*font-family: "Audiowide"; */
+}
+span.fancytree-node.custom1 > span.fancytree-icon {
+	background-position: 0 0;
+	background-image: url("page_white_star.png");
+}
+span.fancytree-node.custom2 > span.fancytree-icon {
+	background-position: 0 0;
+	background-image: url("customDoc2.gif");
+}

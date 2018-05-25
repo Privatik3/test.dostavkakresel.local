@@ -1,0 +1,15 @@
+.redHover{
+ color: #f00;
+ cursor: pointer;
+}
+.category-span{
+
+}
+.category-span:hover{
+	color: #f00;
+	cursor: pointer;	
+}
+.red{
+	font-weight: bold;
+    color: red;	
+}

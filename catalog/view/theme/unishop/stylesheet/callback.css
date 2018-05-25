@@ -1,0 +1,4 @@
+#callback .close{position:absolute;z-index:999;top:8px;right:10px;}
+#callback h4 span {background:#f8f8f8;}
+#callback > div div + div {margin:10px 0 0;}
+#callback .mail, #callback .comment {display:none;}

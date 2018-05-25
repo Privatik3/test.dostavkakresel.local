@@ -1,0 +1,16 @@
+#quick_order h3 span, #quick_order h5 span{background:#f8f8f8}
+#quick_order a{text-decoration:underline;}
+#quick_order .close{position:absolute;z-index:999;top:8px;right:10px;}
+#quick_order .close:after{position:absolute;content:'';top:-4px;bottom:-6px;left:-8px;right:-8px;}
+#quick_order .image{position:relative;}
+#quick_order .image > img{padding:5px 10px;background:#fff;border-radius:3px;border:solid 1px #ddd;}
+#quick_order .image-additional{display:none;position:absolute;z-index:20;margin-top:-1px;left:10px;right:10px;max-width:100%;padding:10px 5px 0;background:#f5f5f5;border:solid 1px #ddd;border-radius:0 0 3px 3px;}
+#quick_order .image:hover .image-additional{display:block;}
+#quick_order .image-additional div{padding:0 5px 10px;}
+#quick_order .image-additional img{padding:4px;border:solid 1px #ddd;background:#fff;border-radius:3px;}
+#quick_order .form-control{margin:0 0 10px;}
+#quick_order #product #input-quantity {margin:0 -1px 0 5px}
+#quick_order > div{position:relative;background:#f8f8f8;padding:20px;}
+#quick_order #product .price{margin-top:10px;}
+#quick_order .attribute div > span span{background:#f5f5f5}
+#quick_order .form-group {clear:both;}

@@ -1,0 +1,312 @@
+<?php
+// Heading
+$_['dae_lang_heading_title'] = 'Attribute Ext';
+$_['heading_title'] = 'Attribute v Ext.3.3';
+$_['dae_lang_heading_title_form_val_attr'] = 'Set the extension Attribute Ext';
+$_['dae_lang_heading_title_list_attribute'] = 'Edit the attributes and groups of attributes';
+
+// Text
+$_['dae_lang_text_success'] = 'Settings changed successfully!';
+$_['dae_lang_text_success_save'] = 'Saved';
+$_['dae_lang_text_list'] = 'List of attributes';
+$_['dae_lang_text_add'] = 'Add';
+$_['dae_lang_text_edit'] = 'attribute Settings';
+$_['dae_lang_text_module'] = 'Modules';
+
+
+$_['error_permission'] = 'You do not Have permission to perform the operation';
+$_['error_delete_attribute_group'] = 'Warning: This group cannot be deleted because it is used %s attributes!';
+$_['success_delete_attribute_group'] = 'Attribute Group deleted';
+$_['success_save_attribute'] = 'The Attribute is stored.';
+$_['success_add_attributes'] = 'Attributes have been added.';
+$_['success_no_add_attributes'] = 'No attributes to add.';
+$_['error_name_attribute'] = 'Attribute Name must be between 3 and 64 characters!';
+$_['success_delete_attribute'] = 'Attribute deleted';
+$_['error_product_attribute'] = 'Warning: This attribute cannot be deleted as it is assigned to %s products!';
+
+$_['dae_lang_text_form_attr_val'] = 'Edit attribute values';
+$_['dae_lang_text_form_attr_ext'] = 'Configure module Attribute name Ext';
+$_['dae_lang_text_only_list'] = 'Values list';
+$_['dae_lang_text_input_text'] = 'Input Box - row';
+$_['dae_lang_text_list_attr'] = 'List of attributes';
+$_['dae_lang_text_attr_val'] = 'Attribute Value';
+$_['dae_lang_text_attribute'] = 'Attributes';
+$_['dae_lang_text_categories'] = 'Category';
+$_['dae_lang_text_select_value'] = 'Attribute Value:';
+$_['dae_lang_text_a_v_description'] = 'Description';
+$_['dae_lang_text_a_v_url'] = 'URL';
+$_['dae_lang_text_replace_value_attr'] = 'Replace with:';
+$_['dae_lang_text_replace_success'] = 'Updated records:';
+$_['dae_lang_text_multiple_value'] = 'Multiple value';
+$_['dae_lang_text_attribute_html'] = 'HTML code';
+$_['dae_lang_text_attribute_postfix'] = 'Postfix';
+$_['dae_lang_text_attribute_image'] = 'Image';
+$_['dae_lang_text_attribute_tooltip'] = 'Popup message';
+$_['dae_lang_text_attr_view'] = 'Display';
+$_['dae_lang_text_attr_view_category'] = 'List';
+$_['dae_lang_text_attr_view_product'] = 'Card';
+$_['dae_lang_text_attr_view_def_product'] = 'Display on the tab.';
+$_['dae_lang_text_attr_style'] = 'Fill';
+$_['dae_lang_text_attr_style_list'] = 'List';
+$_['dae_lang_text_attr_style_row'] = 'String';
+$_['dae_lang_text_attr_style_array'] = 'Int.';
+$_['dae_lang_generate_success'] = 'Attribute Values for the module-generated';
+$_['dae_lang_generate_empty'] = 'There are No attribute values to add';
+$_['dae_lang_setup'] = 'Settings';
+$_['dae_lang_a_merge'] = 'Table';
+$_['dae_menu'] = 'Menu';
+$_['dae_lang_auto_load'] = 'Autocomplete';
+$_['dae_lang_auto_load_m'] = 'Autocomplete module values of attributes';
+$_['dae_lang_auto_load_prod'] = 'Bulk add attributes to products';
+$_['dae_lang_default'] = 'Default';
+
+$_['dae_lang_help_attr_view_category'] = 'Attribute will be displayed in the product list on category pages, manufacturers, filter, etc.';
+$_['dae_lang_help_attr_view_product'] = 'Attribute will be displayed in the item card, in the additional section';
+$_['dae_lang_help_attr_view_def_product'] = 'Attribute will be displayed in the item card, in the standard tab';
+$_['dae_lang_help_attr_style_list'] = 'When filling in attribute values will be available only to the list of values';
+$_['dae_lang_help_attr_style_row'] = 'Input Field attribute is represented by a string';
+$_['dae_lang_help_attr_style_array'] = 'Attribute you can assign multiple values';
+//product_tab
+$_['dae_pt_new_value'] = 'New value';
+$_['dae_pt_new_attribute'] = 'New attribute';
+$_['dae_pt_settings'] = 'Settings';
+$_['dae_pt_settings_view_button'] = 'Show the button "%s"';
+$_['dae_pt_settings_value_source'] = 'Source attribute values';
+$_['dae_pt_settings_value_module'] = 'The values of the module';
+$_['dae_pt_settings_value_product'] = 'Value of goods';
+$_['dae_pt_settings_value_product_category'] = 'Value of products from categories';
+//dae_form_attribute_value
+$_['dae_form_a_v_field_list'] = 'List of values';
+$_['dae_form_a_v_field_list_place'] = 'Attribute Values using a separator';
+$_['dae_form_a_v_field_split'] = 'Delimiter';
+$_['dae_form_a_v_generic'] = 'Add values';
+$_['dae_form_a_v_remove_all'] = 'Delete all values added to the attribute?';
+$_['dae_form_a_v_empty_list_value'] = 'Fill in the field with the list of attribute values that you want to add';
+$_['dae_form_a_v_empty_split'] = 'Specify the separator';
+$_['dae_form_a_v_confirm_remove_val'] = 'Delete entry?';
+$_['dae_form_a_v_confirm_remove_val_all'] = 'Delete all values?';
+$_['dae_form_a_v_error_empty_value'] = 'Value cannot be empty';
+$_['dae_fav_label_value_category'] = 'Show the value only in the categories';
+$_['dae_fav_label_value_category_help'] = 'Specify category in which the goods will be shown when you add this value';
+$_['dae_favp_attribute_value_category'] = 'Categories';
+//dae_service
+$_['dae_service_header'] = 'status Diagnosis';
+$_['dae_service_status_ok'] = 'Excellent';
+$_['dae_service_status_error'] = 'Found\' incorrect entry';
+$_['dae_service_run'] = 'Correct';
+$_['dae_service_remove_empty_value'] = 'Delete';
+$_['dae_service_more_empty_value'] = 'Read More';
+$_['dae_service_error_module'] = 'Incorrect data in the module';
+$_['dae_service_error_module_help'] = 'Deleting attributes with the module tables can stay data related to remote attributes';
+$_['dae_service_remove_attribute'] = 'Deleted attributes in goods';
+$_['dae_service_remove_attribute_help'] = 'If the attribute is deleted the extraneous script, but the product continues to be';
+$_['dae_service_empty_value'] = 'Empty values of attributes in the products';
+$_['dae_service_empty_value_help'] = 'Not filled in values for the attributes of goods';
+$_['dae_service_confirm_remove_empty_value'] = 'Are you sure You want to remove attributes with empty values from products';
+$_['dae_service_product_name'] = 'Product Name';
+$_['dae_service_attributes_error'] = 'Attributes with empty values';
+$_['dae_service_product_edit'] = 'Go to card';
+$_['dae_service_product_empty_value_header'] = 'List of products with empty values of attributes';
+//dae_form_template
+$_['dae_lang_heading_title_form_template'] = 'Display Template';
+//dae_attribute_form
+$_['dae_attr_form_short_name'] = 'Short name';
+$_['dae_attr_form_type'] = 'Method populate the attribute';
+$_['dae_attr_form_type_autocomp'] = 'autocomplete';
+$_['dae_attr_form_type_default'] = 'default';
+$_['dae_attr_form_type_multi'] = 'multiple value';
+$_['dae_attr_form_view_catalog'] = 'Output directory';
+$_['dae_attr_form_view_product'] = 'Display on the item card';
+$_['dae_attr_form_view_product_tab'] = 'Display in the tab in the item card';
+//dae_attribute_in_product
+$_['dae_text_all_category'] = 'All categories';
+$_['dae_text_ain_category'] = 'Category';
+$_['dae_help_ain_category'] = 'Specify category, goods which you want to add attributes';
+$_['dae_text_all_product'] = 'All products';
+$_['dae_text_ain_product'] = 'Add products';
+$_['dae_help_ain_product'] = 'Specify the items that are not in the selected categories to add attributes';
+$_['dae_text_ain_product_ignore'] = 'Ignore products';
+$_['dae_help_ain_product_ignore'] = 'Specify the products that are in the selected categories, but they do not need to add attributes';
+$_['dae_text_ain_params_add'] = 'Add Settings';
+$_['dae_text_ain_clear'] = 'Clear before adding';
+$_['dae_help_ain_clear'] = 'Before you can add the attributes from the selected items will be deleted';
+$_['dae_text_ain_add_new'] = 'Add new only';
+$_['dae_help_ain_add_new'] = 'Will be added only the attributes which the goods yet';
+$_['dae_text_ain_set_default'] = 'default';
+$_['dae_help_ain_set_default'] = 'If the attribute is specified &#34; default&#34; , it will be added to the product';
+$_['dae_text_button_add'] = 'Execute';
+$_['dae_aip_error_select'] = 'you Must select a category or(and) goods';
+$_['dae_aip_error_attribute'] = 'Select the attributes to add';
+$_['dae_text_ain_only_clear'] = 'Delete all attributes from item';
+$_['dae_help_ain_only_clear'] = 'Will be removed only attributes';
+$_['dae_help_ain_warning'] = 'Before performing this operation <b>it is recommended to make a backup of the table '.DB_PREFIX.'product_attribute</b>';
+$_['dae_text_ain_all_attribute'] = 'Select all';
+$_['dae_help_ain_all_attribute'] = 'Click to select all attributes';
+$_['dae_text_ain_attributes'] = 'Set attributes';
+$_['dae_help_ain_attributes'] = 'Specify the attributes that you want to add products';
+//dae_view_attribute_in_category
+$_['dae_view_attr_in_cat_header'] = 'To Customize the display of attributes in the category';
+$_['dae_view_attr_in_cat_success'] = 'Settings saved';
+$_['dae_view_attr_in_cat_empty_attr'] = 'Set attributes';
+$_['dae_view_attr_in_cat_empty_cat'] = 'Select a category';
+$_['dae_view_a_in_c_category'] = 'Select a category';
+$_['dae_view_a_in_c_category_help'] = 'If the selected category will be bound to display attributes, they will appear in the right block';
+$_['dae_view_a_in_c_category_more'] = 'Category(optional)';
+$_['dae_view_a_in_c_category_more_help'] = 'Add category to which you want to apply the same settings';
+$_['dae_view_a_in_c_attribute_list'] = 'Attributes';
+$_['dae_view_a_in_c_attribute_list_help'] = 'Specify the attributes that you need to see the goods in categories';
+$_['dae_view_a_in_c_attr_empty_for_cat'] = 'The selected category of attributes to display is not added';
+$_['dae_view_a_in_c_group_attribute'] = 'Attribute Group';
+$_['dae_view_a_in_c_group_attribute_help'] = 'If you specify a group of attributes,the attributes will appear only in this group or you can add all the attributes in the group';
+$_['dae_view_a_in_c_button_add_attribute_group_help'] = 'Add all attributes of the selected group';
+$_['dae_view_a_in_c_button_view_attribute_group_help'] = 'Show all attributes of the selected group';
+$_['dae_view_a_in_c_button_load_attribute'] = 'Add attributes';
+$_['dae_view_a_in_c_template'] = 'Template output';
+$_['dae_view_a_in_c_template_help'] = 'Template to output the attributes of the selected categories. If empty, then will display the General template';
+//dae_attribute_in_category
+$_['dae_attr_in_cat_header'] = 'Attach attributes to the category';
+$_['dae_attr_in_cat_success'] = 'Attributes attached to the category';
+$_['dae_attr_in_cat_empty_attr'] = 'Set attributes';
+$_['dae_attr_in_cat_empty_cat'] = 'Select a category';
+$_['dae_a_in_c_category'] = 'Select a category';
+$_['dae_a_in_c_category_help'] = 'If the selected category will be linked to the attributes they will appear in the right block';
+$_['dae_a_in_c_category_more'] = 'Category(optional)';
+$_['dae_a_in_c_category_more_help'] = 'Add category to which you want to attach the same list of attributes';
+$_['dae_a_in_c_attribute_list'] = 'Attributes';
+$_['dae_a_in_c_attribute_list_help'] = 'Specify the attributes that should be attached to a category';
+$_['dae_a_in_c_attr_empty_for_cat'] = 'The selected category attributes are not yet bound';
+$_['dae_a_in_c_group_attribute'] = 'Attribute Group';
+$_['dae_a_in_c_group_attribute_help'] = 'If you specify a group of attributes,the attributes will appear only in this group or you can add all the attributes in the group';
+$_['dae_a_in_c_button_add_attribute_group_help'] = 'Add all attributes of the selected group';
+$_['dae_a_in_c_button_view_attribute_group_help'] = 'Show all attributes of the selected group';
+$_['dae_a_in_c_button_load_attribute'] = 'Add attributes';
+//settings
+$_['dae_settings_other'] = 'Other settings';
+$_['dae_settings_load_sortable'] = 'Download UI Sortable';
+$_['dae_settings_tab_product'] = 'Edit the item card';
+$_['dae_settings_auto_load_cat'] = 'Automatically add attributes bound to the category';
+$_['dae_settings_auto_load_cat_help'] = 'Item will be added on the attributes attached to the category. The repeated attributes will be ignored.';
+$_['dae_settings_view_attr_id'] = 'Show ID';
+$_['dae_settings_view_attr_id_help'] = 'The ID of the attribute will be displayed on the main page of the module next to the name of the attribute. Useful to apply a separate CSS rules';
+$_['dae_settings_view_attr_v_id'] = 'Show ID values of the attribute';
+$_['dae_settings_view_attr_v_id_help'] = 'ID of attribute values will be displayed on the main page of the module next to the attribute values. Useful to apply a separate CSS rules';
+$_['dae_settings_view_val_attr'] = 'Display pre-defined values of the attribute';
+$_['dae_settings_view_val_attr_help'] = 'On main page of the module (called attribute) are displayed, it predopredeleno values';
+$_['dae_settings_load_info_server'] = 'Get data from server';
+$_['dae_settings_load_info_server_help'] = 'If you have a lot of attributes or a product in the admin area slows down - vkusite this option';
+$_['dae_view_checkbox_in_multy'] = 'Maximum number of values to output checkboxes';
+$_['dae_view_checkbox_in_multy_help'] = 'If the number of predefined values of the attribute that has multiple values, it will be a small specified number, the filling of multiple attribute values will be implemented through checkboxes';
+$_['dae_settings_use_cache'] = 'Use cache';
+$_['dae_settings_value_category'] = 'Bind attribute values to categories';
+$_['dae_settings_value_category_help'] = 'When filling out item attributes will be displayed the values that are allowed for categories of goods';
+$_['dae_settings_view_in_product_header'] = 'Output Options in the additional section of the item card';
+$_['dae_settings_view_in_product_tab_header'] = 'The output Settings in the standard section in the item card';
+$_['dae_settings_count_attribute'] = 'Number of rows returned in the autocomplete attributes';
+$_['dae_settings_count_attribute_value'] = 'The Number of output lines when completing attributes values';
+$_['dae_settings_view'] = 'Output';
+// Column
+$_['dae_lang_column_name_attribute'] = 'Attribute';
+$_['dae_lang_column_name_category'] = 'Category';
+$_['dae_lang_column_attribute_group'] = 'Attribute Group';
+$_['dae_lang_column_sort_order'] = 'Sort Order';
+$_['dae_lang_column_action'] = 'Action';
+$_['dae_lang_column_count'] = 'Number of attributes';
+$_['dae_lang_column_value_count'] = 'Number of values';
+
+// Entry 
+$_['entry_text'] = 'Enter text';
+$_['entry_attribute'] = 'Enter the name of the attribute';
+$_['dae_lang_entry_text_value'] = 'Attribute Value';
+$_['dae_lang_entry_attribute_group'] = 'Attribute Group';
+$_['dae_lang_entry_sort_order'] = 'Sort Order';
+$_['dae_lang_entry_attribute_value'] = 'Attribute Value';
+$_['dae_entry_attribute_value_description'] = 'Description';
+$_['dae_lang_entry_image_value'] = 'Image';
+
+//button 
+$_['button_add'] = 'Add';
+$_['button_edit'] = 'Edit';
+$_['button_delete'] = 'Delete';
+$_['button_replase'] = 'Replace';
+$_['dae_lang_button_add_attribute_category'] = 'Add attributes';
+$_['dae_lang_button_clear_attribute'] = 'Remove all attributes';
+$_['dae_lang_button_clear_attribute_category'] = 'Remove all attributes';
+$_['dae_lang_button_list_attr'] = 'Attribute Value';
+$_['dae_button_attribute_value_generate'] = 'Generate';
+$_['dae_button_add_attribute'] = 'New attribute';
+$_['dae_button_add_attribute_group'] = 'New group';
+$_['devos_button_add_attribute_category'] = 'Add attributes from the category';
+$_['devos_button_add_attribute_list'] = 'Add attributes from a list';
+
+$_['dae_form_attribute_group_title'] = 'Add attribute group';
+$_['dae_form_attribute_group_entry_name'] = 'Group Name';
+$_['dae_form_attribute_title'] = 'New attribute';
+$_['dae_form_attribute_edit_title'] = 'Edit attribute';
+$_['dae_form_load_attr_from_cat_title'] = 'Select the category to download';
+$_['dae_form_load_attr_from_list_title'] = 'Add attributes from a list';
+$_['dae_form_attribute_value_title'] = 'Edit attribute values';
+$_['dae_form_attribute_correct_title'] = 'Correction(mass replacement) values of the attribute';
+$_['dae_entry_name'] = 'Name';
+$_['dae_entry_name_attribute'] = 'Attribute Name';
+$_['dae_entry_group'] = 'Select a group';
+$_['dae_sort_order'] = 'Sort Order';
+$_['dae_column_action'] = 'Actions';
+//tab
+$_['dae_lang_tab_attribute'] = 'Values of attributes';
+$_['dae_lang_tab_mng_val_attr'] = 'The correct values of the attribute';
+$_['dae_lang_tab_category'] = 'Attributes for the categories';
+$_['dae_lang_tab_view'] = 'Display Options';
+$_['dae_lang_tab_attribute_view'] = 'Setting';
+$_['dae_lang_tab_settings_attribute'] = 'Attribute settings';
+$_['dae_lang_tab_attribute_value_generate'] = 'Autocomplete module values of attributes';
+$_['dae_tab_attribute_value_generate_description'] = 'Currently generation works only for one(current) language.<br>Hit &#34;Generate&#34;, to add all unique values of the attributes in the module';
+$_['dae_lang_tab_update'] = 'module';
+
+//view
+$_['view_catalog_name'] = 'Replace the description in the catalog';
+$_['view_product_name'] = 'Show the item card';
+$_['view_name_att_name'] = 'Display title attributes';
+$_['value_separator_name'] = 'Separator between multiple values of the same attribute';
+$_['separator_name'] = 'Separator between values';
+$_['separator_name_name'] = 'Separator between the name and the attribute value';
+$_['count_view_attr_name'] = 'Number of attributes (0 to show all)';
+$_['count_view_attr_pr_name'] = 'Number of attributes (0 to show all)';
+$_['length_descrip_name'] = 'Length of displayed text (0 to show all)';
+$_['skin_attr_view_name'] = 'Wrapper display attributes';
+$_['skin_attr_view_pr_name'] = 'Wrapper display attributes';
+$_['skin_a_d_view_name'] = 'Wrapper attribute display + description';
+$_['help_skin_attr_view_name'] = 'AutoCorrect for {attribute_id}, {attribute_name}, {attribute_value}';
+$_['replace_val_att_name'] = 'Replace the value for name';
+$_['skip_replace_val_att_name'] = 'Skip the replacement values for the names';
+$_['help_replace_val_att_name'] = 'List the values of the attributes # that should be replaced by the attribute name.';
+$_['dae_att_image_name'] = 'Image Size';
+$_['dae_val_image_name'] = 'Image Size attribute value';
+$_['dae_tab_settings_1'] = 'The Output to the item card';
+$_['dae_tab_settings_2'] = 'The Output in the product list';
+$_['dae_tab_settings_3'] = 'General output settings';
+$_['dae_tab_settings_4'] = 'Extension Options';
+$_['dae_settings_box_2'] = 'Edit Form values';
+$_['dae_settings_view_a_v_url'] = 'Show field &#34;URL&#34;';
+$_['dae_settings_view_a_v_desc'] = 'Show field &#34;Description&#34;';
+
+//update
+$_['dae_lang_this_version'] = 'Current version: ';
+$_['dae_lang_new_version'] = 'New version: ';
+$_['dae_lang_last_version'] = 'No Updates.';
+$_['dae_lang_update_text'] = 'Check for updates...';
+$_['dae_lang_update_error'] = 'Could Not check updates';
+$_['dae_lang_url_documentation'] = 'Sm. documentation';
+
+//License
+$_['dae_lang_success_license'] = 'activation Code accepted';
+$_['dae_lang_error_license'] = 'cannot activate module';
+$_['dae_license_button_save'] = 'Activate';
+$_['dae_license_text_field'] = 'Enter activation code for domain';
+$_['dae_lang_text_form_license'] = 'Module Activation Attribute Ext';
+$_['dae_lang_license_help'] = '<p>You can Purchase the activation code, You can <a href="http://dev-os.ru" target="_blank">dev-os.ru</a>.</p><p>If You have already purchased the module, to obtain the activation code, send the developer payment information and the domain name for email <a href="mailto:support@dev-os.ru">support@dev-os.ru</a></p><p><span style="color: red;">Before clicking "Activate" read the <a href="http://dev-os.ru/documentation/module-attribute-ext.html" target="_blank">the section "Installation and upgrade" in the documentation</a>, and make sure that that You install the latest version.</span></p>';
+$_['dae_lang_license_update_help'] = '<p>Previously used code not suitable for the current version. Click "Activate" to receive your code automatically.</p><p><span style="color: red;">Before clicking "Activate" read the <a href="http://dev-os.ru/documentation/module-attribute-ext.html" target="_blank">the section "Installation and upgrade" in the documentation</a></span>, and make sure You install the latest version.</p>';
+$_['dae_license_button_update'] = 'Update';
+$_['text_yes'] = 'Yes';
+$_['text_no'] = 'No';
+$_['dae_text_wait'] = 'please Wait...';
+$_['dae_text_success'] = 'Executed';
