@@ -462,6 +462,29 @@ class ControllerProductProduct extends Controller {
 				);
 			}
 
+            // Общая сума всех товаров на фото
+            $data['total_price'] = 0;
+
+			// Формируем данные для поинтов связаных товаров
+            $data['relative_points'] = array();
+            $relative_points = $this->model_catalog_product->getProductPoints($this->request->get['product_id']);
+
+            foreach ($relative_points as $r_point) {
+                $data['relative_points'][] = array(
+                    'id' => $r_point['id'],
+                    'x_point' => $r_point['x_point'],
+                    'y_point' => $r_point['y_point'],
+                    'name' => $r_point['name'],
+                    'price' => $this->currency->format($this->tax->calculate($r_point['price'], $r_point['tax'], $this->config->get('config_tax')), $this->session->data['currency']),
+                    'href' => $this->url->link('product/product', 'product_id=' . $r_point['product_id'])
+                );
+
+                // Получаем суму всех связаных товаров
+                $data['total_price'] += $this->tax->calculate($r_point['price'], $r_point['tax'], $this->config->get('config_tax'))*$this->currency->getValue($currency);
+            }
+
+            // Добавляем знак валюты к общей суме
+            $data['total_price'] = $this->currency->format($data['total_price'], $this->session->data['currency']);
 
 			// режим отображения группы связанных (если 0 не объединяем во вкладки, если 1 объединяем)
 			$mode_group = $this->model_catalog_product->getProductRelatedMode($this->request->get['product_id']);
@@ -469,9 +492,6 @@ class ControllerProductProduct extends Controller {
 			$results = $this->model_catalog_product->getProductRelatedGroup($this->request->get['product_id']);
 
 			$group_categories = array();
-
-            // Обявляем переменную
-            $data['total_price'] = 0;
             
 			foreach ($results as $result) {
 
@@ -668,13 +688,7 @@ class ControllerProductProduct extends Controller {
 					'rating'      => $rating,
 					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
 				);
-
-                // Получаем суму всех связаных товаров
-                $data['total_price'] += $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'))*$this->currency->getValue($currency);
 			}
-
-            // Добавляем знак валюты к общей суме
-            $data['total_price'] = $this->currency->format($data['total_price'], $this->session->data['currency']);
 
 			$data['product_group_categories'] = array();
 

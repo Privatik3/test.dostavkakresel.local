@@ -386,6 +386,26 @@ class ModelCatalogProduct extends Model {
 		return $query->rows;
 	}
 
+    public function getProductPoints($product_id) {
+        $product_data = array();
+
+        $query = $this->db->query("SELECT pp.id, pp.x_point, pp.y_point, pp.related_product_id AS product_id, pd.name, p.price, p.tax_class_id AS tax FROM " . DB_PREFIX . "product_points AS pp INNER JOIN " . DB_PREFIX . "product AS p ON ( pp.related_product_id = p.product_id ) INNER JOIN " . DB_PREFIX . "product_description AS pd ON ( pp.related_product_id = pd.product_id ) WHERE pp.product_id = '" . (int)$product_id . "';");
+
+        foreach ($query->rows as $result) {
+            $product_data[] = array(
+              'id' => $result['id'],
+              'x_point' => $result['x_point'],
+              'y_point' => $result['y_point'],
+              'product_id' => $result['product_id'],
+              'name' => $result['name'],
+              'price' => $result['price'],
+              'tax' => $result['tax']
+            );
+        }
+
+        return $product_data;
+    }
+
 	public function getProductRelated($product_id) {
 		$product_data = array();
 

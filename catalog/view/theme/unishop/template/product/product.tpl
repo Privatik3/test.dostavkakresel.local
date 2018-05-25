@@ -33,6 +33,13 @@
 								<?php if ($thumb) { ?>
 									<li>
 										<a class="thumbnail" href="<?php echo $popup; ?>" title="<?php echo $heading_title; ?>" itemprop="image" data-key="0">
+
+											<?php /* --------------------------- Вывод точек на картинке --------------------------- */ ?>
+											<?php foreach ($relative_points as $r_point) { ?>
+											<span class="point" data-item="pointID_<?php echo $r_point['id']; ?>" style="top: <?php echo $r_point['y_point']; ?>px; left: <?php echo $r_point['x_point']; ?>px;" ></span>
+											<?php } ?>
+											<?php /*------------------------ Вывод точек на картинке ( END ) ------------------------ */ ?>
+
 											<img src="<?php echo $thumb; ?>" <?php if ($quantity < 1 && $show_stock_status) { ?>data-status="<?php echo $stock_status; ?>" data-status-id="<?php echo $stock_status_id; ?>"<?php } ?> title="<?php echo $heading_title; ?>" alt="<?php echo $heading_title; ?>" />
 										</a>
 									</li>
@@ -85,16 +92,15 @@
 											<div class="tab-pane tab-description-style" id="tab-description" itemprop="description" >
 
 												<?php /* --------------------------- Вывод списка товаров --------------------------- */ ?>
-												<?php foreach ($products_group as $group) {
-                								foreach ($group as $product) { ?>
-												<div class="pointID_514005">
+												<?php foreach ($relative_points as $r_point) { ?>
+												<div class="pointID_<?php echo $r_point['id']; ?>">
 													<div class="checkbox"><input class="checkbox-complect" name="" type="checkbox" checked></div>
 													<hr style="margin: 8px 0;border-color: #b8b8b8;">
-													<div class="name"><a class="name-tab" href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
-													<div class="price price-tab"><?php echo $product['price']; ?></div>
+													<div class="name"><a class="name-tab" href="<?php echo $r_point['href']; ?>"><?php echo $r_point['name']; ?></a></div>
+													<div class="price price-tab"><?php echo $r_point['price']; ?></div>
 													<hr style="margin: 8px 0;border-color: #b8b8b8;">
 												</div>
-												<?php }} ?>
+												<?php } ?>
 												<?php /*------------------------ Вывод списка товаров ( END ) ------------------------ */ ?>
 
 												<?php /* --------------------------- Вывод общей суммы товара --------------------------- */ ?>
