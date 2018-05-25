@@ -470,6 +470,9 @@ class ControllerProductProduct extends Controller {
 
 			$group_categories = array();
 
+            // Обявляем переменную
+            $data['total_price'] = 0;
+            
 			foreach ($results as $result) {
 
 				if ($mode_group == 1) {
