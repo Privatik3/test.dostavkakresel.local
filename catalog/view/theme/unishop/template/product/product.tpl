@@ -36,7 +36,7 @@
 
 											<?php /* --------------------------- Вывод точек на картинке --------------------------- */ ?>
 											<?php foreach ($relative_points as $r_point) { ?>
-											<span class="point" data-item="pointID_<?php echo $r_point['id']; ?>" style="top: <?php echo $r_point['y_point']; ?>px; left: <?php echo $r_point['x_point']; ?>px;" ></span>
+											<span class="point span-marcer" data-item="pointID_<?php echo $r_point['id']; ?>" style="top: <?php echo $r_point['y_point']; ?>px; left: <?php echo $r_point['x_point']; ?>px;" ></span>
 											<?php } ?>
 											<?php /*------------------------ Вывод точек на картинке ( END ) ------------------------ */ ?>
 
