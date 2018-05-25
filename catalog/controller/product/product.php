@@ -665,7 +665,13 @@ class ControllerProductProduct extends Controller {
 					'rating'      => $rating,
 					'href'        => $this->url->link('product/product', 'product_id=' . $result['product_id'])
 				);
+
+                // Получаем суму всех связаных товаров
+                $data['total_price'] += $this->tax->calculate($result['price'], $result['tax_class_id'], $this->config->get('config_tax'))*$this->currency->getValue($currency);
 			}
+
+            // Добавляем знак валюты к общей суме
+            $data['total_price'] = $this->currency->format($data['total_price'], $this->session->data['currency']);
 
 			$data['product_group_categories'] = array();
 
