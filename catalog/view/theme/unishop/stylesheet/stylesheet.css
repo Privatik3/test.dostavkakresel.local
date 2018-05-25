@@ -1055,3 +1055,23 @@ span.dae-tooltip::after{ color: #1e91cf; content: ""; font-family: FontAwesom
     margin-left: 25px;
 }
 /*------------------------ Вывод списка товаров ( END ) ------------------------ */
+
+
+/*------------------------ Класы для таблов списка комплекта товаров ------------------------ */
+
+.checkbox-complect {
+    margin-left: 5px!important;
+    margin-top: 15px!important;
+}
+.tab-description-style {
+    line-height: 22px!important;
+    font-size: 13px!important;
+}
+.price-tab {
+    margin: 0!important;
+}
+.name-tab {
+    width: 360px;
+    float: left;
+    color: black!important;
+}
