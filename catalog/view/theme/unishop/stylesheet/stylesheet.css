@@ -1047,4 +1047,11 @@ header #live-search li > i {animation:spin 1s infinite linear;}
     .custom_menu div:nth-child(5){display:none;}
     footer .payments img, footer .payments img + img {margin:0 5px 0 0;}
 }
-span.dae-tooltip::after{ color: #1e91cf; content: ""; font-family: FontAwesome; margin-left: 4px; } 
+span.dae-tooltip::after{ color: #1e91cf; content: ""; font-family: FontAwesome; margin-left: 4px; }
+
+/* --------------------------- Вывод списка товаров --------------------------- */
+.name, .price {
+    display: inline-block;
+    margin-left: 25px;
+}
+/*------------------------ Вывод списка товаров ( END ) ------------------------ */

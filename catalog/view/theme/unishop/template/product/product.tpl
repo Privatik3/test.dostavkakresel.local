@@ -22,6 +22,18 @@
 			<?php $class = 'col-sm-12'; ?>
 		<?php } ?>
 		<div id="content" class="col-xs-12"><?php echo $content_top; ?>
+
+            <?php /* --------------------------- Вывод списка товаров --------------------------- */ ?>
+            <?php foreach ($products_group as $group) {
+                foreach ($group as $product) { ?>
+            <div class="pointID_514005">
+                <div class="checkbox"><input name="" type="checkbox" checked></div>
+                <div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+                <div class="price"><?php echo $product['price']; ?> руб.</div>
+            </div>
+            <?php }} ?>
+            <?php /*------------------------ Вывод списка товаров ( END ) ------------------------ */ ?>
+
 			<div id="product" class="row">
 				<div class="col-sm-12"><h1 class="heading"><span itemprop="name"><?php echo $heading_title; ?></span></h1></div>
 					<div class="col-sm-6 col-md-5">
