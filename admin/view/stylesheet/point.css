@@ -1,0 +1,13 @@
+.point {
+    top: 252px;
+    left: 279px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background: green none repeat scroll 0 0;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+    right: auto;
+    bottom: auto;
+}
