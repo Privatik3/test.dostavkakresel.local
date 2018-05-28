@@ -1047,41 +1047,4 @@ header #live-search li > i {animation:spin 1s infinite linear;}
     .custom_menu div:nth-child(5){display:none;}
     footer .payments img, footer .payments img + img {margin:0 5px 0 0;}
 }
-span.dae-tooltip::after{ color: #1e91cf; content: ""; font-family: FontAwesome; margin-left: 4px; }
-
-/* --------------------------- Вывод списка товаров --------------------------- */
-.name, .price {
-    display: inline-block;
-    margin-left: 25px;
-}
-/*------------------------ Вывод списка товаров ( END ) ------------------------ */
-
-
-/*------------------------ Класы для таблов списка комплекта товаров ------------------------ */
-
-.checkbox-complect {
-    margin-left: 5px!important;
-    margin-top: 15px!important;
-}
-.tab-description-style {
-    line-height: 22px!important;
-    font-size: 13px!important;
-}
-.price-tab {
-    margin: 0!important;
-}
-.name-tab {
-    width: 360px;
-    float: left;
-    color: black!important;
-}
-.span-marcer {
-    position: absolute;
-    cursor: pointer;
-    width: 18px;
-    height: 18px;
-    background: url(../image/point.png) no-repeat 0 -18px;
-}
-.span-marcer:hover {
-    background: url(../image/point.png) no-repeat 0 0;
-}
+span.dae-tooltip::after{ color: #1e91cf; content: ""; font-family: FontAwesome; margin-left: 4px; } 
