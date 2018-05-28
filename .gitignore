@@ -25,4 +25,7 @@
 /auroralcom_testd_BackUP.gz
 /test.dostavkakresel.ru.zip
 *.tpl___jb_old___
-test.dostavkakresel.local ( backUP ).zip
+test.dostavkakresel.local ( original ).zip
+admin/view/batch_editor/setting/language/
+admin/view/batch_editor/setting/link/
+admin/view/batch_editor/setting/template/
